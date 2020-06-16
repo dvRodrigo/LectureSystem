@@ -1,0 +1,13 @@
+D:\Projetos\LectureSys\LectureSys\bin\Debug\netcoreapp3.1\LectureSys.exe
+D:\Projetos\LectureSys\LectureSys\bin\Debug\netcoreapp3.1\LectureSys.deps.json
+D:\Projetos\LectureSys\LectureSys\bin\Debug\netcoreapp3.1\LectureSys.runtimeconfig.json
+D:\Projetos\LectureSys\LectureSys\bin\Debug\netcoreapp3.1\LectureSys.runtimeconfig.dev.json
+D:\Projetos\LectureSys\LectureSys\bin\Debug\netcoreapp3.1\LectureSys.dll
+D:\Projetos\LectureSys\LectureSys\bin\Debug\netcoreapp3.1\LectureSys.pdb
+D:\Projetos\LectureSys\LectureSys\obj\Debug\netcoreapp3.1\LectureSys.csprojAssemblyReference.cache
+D:\Projetos\LectureSys\LectureSys\obj\Debug\netcoreapp3.1\LectureSys.AssemblyInfoInputs.cache
+D:\Projetos\LectureSys\LectureSys\obj\Debug\netcoreapp3.1\LectureSys.AssemblyInfo.cs
+D:\Projetos\LectureSys\LectureSys\obj\Debug\netcoreapp3.1\LectureSys.csproj.CoreCompileInputs.cache
+D:\Projetos\LectureSys\LectureSys\obj\Debug\netcoreapp3.1\LectureSys.dll
+D:\Projetos\LectureSys\LectureSys\obj\Debug\netcoreapp3.1\LectureSys.pdb
+D:\Projetos\LectureSys\LectureSys\obj\Debug\netcoreapp3.1\LectureSys.genruntimeconfig.cache
