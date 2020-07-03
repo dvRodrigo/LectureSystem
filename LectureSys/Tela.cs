@@ -7,6 +7,15 @@ namespace LectureSys
 {
     class Tela
     {
+        public static void Menu()
+        {
+            Console.WriteLine("\tLECTURE SYSTEM");
+            Console.WriteLine("1) Registrar         2)Visualizar");
+            Console.WriteLine("3) Poltronas         4)Sair");
+            Console.WriteLine();
+            Console.Write("Operação: ");
+
+        }
         public static void Assentos(Sala sal)
         {
             char lt = 'A';
@@ -30,12 +39,13 @@ namespace LectureSys
            
         }
 
-        public static PosicaoSala LerPosicao()
+        public static PosicaoSala LerPosicao(string s)
         {
-            string s = Console.ReadLine();
+           
             char linha = s[0];
             int coluna = int.Parse(s[1] + "");
             return new PosicaoSala(linha, coluna);
         }
+
     }
 }
