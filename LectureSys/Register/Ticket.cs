@@ -25,6 +25,7 @@ namespace LectureSys.Register
         public override string ToString()
         {
             return "" +
+                "-----------------------------------------" +
                 "\nNome: "
                 + Name
                 + "\nIdade: "
@@ -35,7 +36,8 @@ namespace LectureSys.Register
                 + "\nPoltrona: "
                 + Poltrona.ToUpper()
                 + "\nData: "
-                + Time;
+                + Time
+            + "\n----------------------------------------";
         }
     }
 }

@@ -21,21 +21,25 @@ namespace LectureSys
                 switch (op)
                 {
                     case 1:
-                        Console.Write("Name: ");
+                        Console.Clear();
+                        Console.WriteLine("|\t\tCADASTRO\t\t|");
+                        Console.Write("\nNome: ");
                         string name = Console.ReadLine();
-                        Console.Write("Age: ");
+                        Console.Write("Idade: ");
                         int age = int.Parse(Console.ReadLine());
-                        Console.Write("Identification: ");
+                        Console.Write("Identificação: ");
                         Identification person = Enum.Parse<Identification>(Console.ReadLine());
                         Console.Clear();
                         Tela.Assentos(sal);
-                        Console.Write("Escolhar uma poltrona: ");
+                        Console.Write("\nEscolhar uma poltrona: ");
                         string polt = Console.ReadLine();
+                        Console.Clear();
                         Posicao destino = Tela.LerPosicao(polt).toPosicao();
                         sal.RegistrarPoltrona(new Poltrona(sal), destino);
-                        DateTime TimeNow = DateTime.Now;
-                        Ticket ticket = new Ticket(name, age, person, polt, TimeNow);
+                        DateTime TimeNow = DateTime.Now;                      
                         list.Add(new Ticket(name, age, person, polt, TimeNow));
+                        Ticket ticket = new Ticket(name, age, person, polt, TimeNow);
+                        Console.WriteLine("|\t\t TICKET \t\t|");
                         Console.WriteLine(ticket);
                         Console.ReadLine(); Console.Clear();
                         Tela.Menu();
@@ -44,12 +48,23 @@ namespace LectureSys
 
                         foreach (Ticket x in list)
                         {
+                     
                             Console.WriteLine(x);
+                           
                         }
                         Console.ReadLine(); Console.Clear();
                         Tela.Menu();
                         break;
 
+                    case 3:
+                        Tela.Assentos(sal);
+                        Console.WriteLine("\n[x] Indisponivel");
+                        Console.ReadLine();
+                        Console.Clear();
+                        Tela.Menu();
+                      
+
+                        break;
 
                         
                 }

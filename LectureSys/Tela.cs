@@ -9,11 +9,11 @@ namespace LectureSys
     {
         public static void Menu()
         {
-            Console.WriteLine("\tLECTURE SYSTEM");
+            Console.WriteLine("|\tLECTURE SYSTEM\t\t|\n");
             Console.WriteLine("1) Registrar         2)Visualizar");
             Console.WriteLine("3) Poltronas         4)Sair");
             Console.WriteLine();
-            Console.Write("Operação: ");
+            Console.Write("OP:");
 
         }
         public static void Assentos(Sala sal)
