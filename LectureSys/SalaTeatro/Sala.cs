@@ -1,5 +1,7 @@
-﻿using System;
+﻿using LectureSys.SalaTeatro;
+using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Text;
 
 namespace LectureSys.Entites
@@ -24,9 +26,13 @@ namespace LectureSys.Entites
             return poltronas[linha, coluna];
         }
         public void RegistrarPoltrona(Poltrona pol, Posicao pos)
-        {
+        {          
+     
             poltronas[pos.linha, pos.coluna] = pol;
-            
+            if (pol == null)
+            {
+                throw new SalaException("Poltrona esta ocupada!");
+            }
             pol.posicao = pos;
         }
         

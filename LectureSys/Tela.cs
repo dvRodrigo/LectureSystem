@@ -36,7 +36,7 @@ namespace LectureSys
                 Console.Write("|");
                 Console.WriteLine();
             }
-           
+            Console.WriteLine("\n[x] Indisponivel");
         }
 
         public static PosicaoSala LerPosicao(string s)

@@ -1,10 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace LectureSys.SalaTeatro
 {
-    class SalaException
+    class SalaException : Exception
     {
+        public SalaException(string msg) : base(msg)
+        {
+
+        }
     }
 }
